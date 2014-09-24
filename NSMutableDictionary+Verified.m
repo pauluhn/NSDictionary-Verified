@@ -21,7 +21,7 @@
 - (void)setVerifiedValue:(id)value forKey:(NSString *)aKey;
 {
     if (value) {
-        [self setValue:object forKey:aKey];
+        [self setValue:value forKey:aKey];
     } else {
         [self setVerifiedObject:nil forKey:aKey];
     }
