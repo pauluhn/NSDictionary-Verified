@@ -10,5 +10,6 @@
 @interface NSMutableDictionary (Verified)
 
 - (void)setVerifiedObject:(id)object forKey:(id<NSCopying>)aKey;
+- (void)setVerifiedValue:(id)value forKey:(NSString *)aKey;
 
 @end
